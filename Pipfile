@@ -8,6 +8,8 @@ jupyter = "*"
 dbt-bigquery = "*"
 kaggle = "*"
 python-dotenv = "*"
+pandas = "*"
+pyarrow = "*"
 
 [dev-packages]
 

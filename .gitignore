@@ -202,6 +202,7 @@ Thumbs.db
 
 # Large data files (common formats)
 *.csv
+!countries.csv
 *.tsv
 *.xlsx
 *.xls
@@ -214,6 +215,7 @@ Thumbs.db
 *.tgz
 *.txz
 *.rar
+*.parquet
 
 # data files
 mage_ai/server/data/files/**

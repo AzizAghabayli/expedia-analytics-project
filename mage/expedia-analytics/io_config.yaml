@@ -37,7 +37,7 @@ default:
   DUCKDB_DATABASE: database
   DUCKDB_SCHEMA: main
   # Google
-  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/keys/expanalytics-6fa38f86fd8e.json"
+  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/keys/expanalytics-a55716e9bf6a.json"
   GOOGLE_LOCATION: US # Optional
   # MongoDB
   # Specify either the connection string or the (host, password, user, port) to connect to MongoDB.
