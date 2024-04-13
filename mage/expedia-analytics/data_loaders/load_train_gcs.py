@@ -20,9 +20,17 @@ def load_from_google_cloud_storage(*args, **kwargs):
     config_profile = 'default'
 
     bucket_name = 'expedia-raw-data-f93e'
-    object_key = 'test.parquet'
+    object_key = 'train.parquet'
 
     return GoogleCloudStorage.with_config(ConfigFileLoader(config_path, config_profile)).load(
         bucket_name,
         object_key,
     )
+
+
+@test
+def test_output(output, *args) -> None:
+    """
+    Template code for testing the output of the block.
+    """
+    assert output is not None, 'The output is undefined'

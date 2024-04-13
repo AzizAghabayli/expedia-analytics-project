@@ -27,3 +27,10 @@ def load_from_google_cloud_storage(*args, **kwargs):
         object_key,
     )
 
+
+@test
+def test_output(output, *args) -> None:
+    """
+    Template code for testing the output of the block.
+    """
+    assert output is not None, 'The output is undefined'

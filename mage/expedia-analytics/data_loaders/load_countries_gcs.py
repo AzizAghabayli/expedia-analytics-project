@@ -26,3 +26,4 @@ def load_from_google_cloud_storage(*args, **kwargs):
         bucket_name,
         object_key,
     )
+
